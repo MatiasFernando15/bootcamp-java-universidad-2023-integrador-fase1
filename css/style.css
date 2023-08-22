@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+:root {
+    --color-primario: #ffffff;
+    --color-secundario: #566FB8;
+    --color-fondo-enlaces: #5CC720;
+    --color-fondo-texto: #3092FC;
+    --color-fondo-formulario: #4C4D4F;
+}
+
+/*Estilos Barra de Navegación*/
+.navbar-expand-md {
+    height: 150px;
+}
+.navbar-brand-gc{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.nav-link {
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 0;
+    border: var(--color-secundario) 2px solid;
+    width: 200px;
+    height: 33px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--color-secundario);
+}
+.nav-link:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+}
+.sec {
+    background-color: var(--color-fondo-enlaces);
+    color: var(--color-primario);
+    border: none;
+    font-size: 13px;
+    width: 150px;
+    padding-top: 8px;
+}
+.sec:hover {
+    background-color: var(--color-fondo-enlaces);
+    color: var(--color-primario);
+}
+.icono {
+    margin-left: 30px;
+    margin-top: 15px;
+}
