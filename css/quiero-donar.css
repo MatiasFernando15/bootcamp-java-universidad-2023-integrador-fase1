@@ -61,41 +61,22 @@ body {
     }
 }
 
-/*sección inscripciones*/
-.titulo-ins {
+/*sección titulos*/
+.donar-1 {
+    font-size: 60px;
     color: var(--color-fondo-texto);
     font-weight: 900;
-    font-size: 50px;
-}
-.subtitulo {
     font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.donar-2 {
     font-size: 20px;
     color: var(--color-secundario);
+    font-weight: 600;
 }
-.li-inscrip {
-    color: var(--color-secundario);
-}
-.texto-inscrip {
-    color: var(--color-secundario);
-    font-size: 15px;
-}
-.circle-background {
-    width: 80px;
-    height: 80px;
-    background-color: var(--color-fondo-texto);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-top: 40px;
-    margin-left: 18px;
-}
-.icon-text {
-    font-size: 12px;
-    font-weight: 700;
-    margin-left: 25px;
-}
+
+/*sección formulario donar*/
 .titulo-form {
     background-color: var(--color-fondo-texto);
     color: var(--color-primario);
@@ -105,7 +86,7 @@ body {
     background-color: var(--color-secundario);
 }
 .img-form {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 /*footer*/
