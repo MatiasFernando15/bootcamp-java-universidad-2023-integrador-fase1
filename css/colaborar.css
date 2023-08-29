@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+:root {
+    --color-primario: #ffffff;
+    --color-fondo-enlaces: #566FB8;
+    --color-secundario: #5CC720;
+    --color-fondo-texto: #3092FC;
+    --color-fondo-formulario: #4C4D4F;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Estilos Barra de Navegación*/
+.navbar {
+    min-height: 150px;
+}
+.btn-primary {
+    background-color: var(--color-fondo-enlaces);
+    color: var(--color-primario);
+    border: none;
+    border-radius: none;
+    font-size: 12px;
+    padding-top: 8px;
+    margin-top: 5px;
+    height: 33px;
+    width: 133px;
+    text-align: center;
+}
+.btn-primary:hover {
+    background-color: var(--color-fondo-enlaces);
+    color: var(--color-primario);
+}
+.nav-link {
+    border: var(--color-secundario) 2px solid;
+    color: var(--color-secundario);
+    width: 152px;
+    height: 33px;
+    margin-top: 5px;
+    padding-top: 2px;
+    font-size: 17px;
+    text-align: center;
+}
+.nav-link:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+}
+@media (max-width: 992px) {
+    .icono-in {
+        margin-left: 64px;
+        margin-top: 0;
+    }
+}
+@media (max-width: 992px) {
+    .icono-fb {
+        margin-left: 60px;
+    }
+}
+@media (max-width: 992px) {
+    .inscrip {
+        margin-left: 8px;
+    }
+}
+
+/*sección colaborar*/
+.texto-grande-lg {
+    font-size: 70px;
+    background-color: rgba(48, 146, 252, 0.4)!important;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+@media (max-width: 992px) {
+    .texto-grande-lg {
+    font-size: 36px;
+    margin-left: 200px;
+    }
+}
+@media (max-width: 767px) {
+    .texto-grande-lg {
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 20px;
+    }
+}
+.content-box {
+    background-color: var(--color-secundario);
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9);
+}
+@media (max-width: 767px) {
+    .d-flex.flex-column-reverse {
+    flex-direction: column-reverse;
+    }
+}
+.titulo-colaborar {
+font-style: italic;
+font-size: 40px;
+background-color: var(--color-fondo-texto) !important;
+}
+.texto-colaborar {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/*sección voluntariado*/
+.vol-div {
+    margin-left: 200px;
+}
+.titu-vol {
+    font-size: 40px;
+    margin-left: 300px;
+    background-color: rgba(92, 199, 32, 0.6);
+}
+.vol {
+    font-size: 20px;
+    background-color: rgba(48, 146, 252, 0.4)!important;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+@media (max-width: 992px) {
+    .vol {
+    font-size: 16px;
+    margin-left: 200px;
+    }
+    .titu-vol {
+        font-size: 30px;
+        margin-left: 250px;
+    }
+}
+@media (max-width: 767px) {
+    .vol {
+    font-size: 8px;
+    margin-left: 30px;
+    margin-top: 0;
+    }
+    .titu-vol {
+        font-size: 18px;
+        margin-left: 40px;
+    }
+}
+.ti-logos {
+    background-color: rgba(48, 146, 252, 0.4);
+    color: var(--color-primario);
+    font-style: italic;
+    font-size: 50px;
+}
+
+/*footer*/
+.footer {
+    background-color: var(--color-fondo-formulario);
+    margin-top: 40px;
+    text-align: center;
+}
+.footer p {
+    color: var(--color-primario);
+    margin-top: 20px;
+}
+.footer h3 {
+    color: var(--color-primario);
+    background-color: var(--color-fondo-texto);
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.boton-footer {
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+}
+h4 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: italic;
+}
+.gran {
+    color: var(--color-secundario);
+}
+.causa {
+    color: var(--color-fondo-enlaces);
+}
+.apellido {
+    font-style: italic;
+    font-weight: 700;
+    color: var(--color-secundario);
+}
